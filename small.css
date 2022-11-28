@@ -1,0 +1,387 @@
+@media(min-width: 1px) and (max-width: 365px){
+
+    *,
+    *::before,
+    *::after{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        user-select: none;
+        } 
+    
+    body{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgb(39, 39, 39); */
+    }
+    .home{
+        position: relative;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .nav{
+        width: 100%;
+        position:absolute;
+        z-index: 999;
+        display:flex;
+        flex-direction: row;
+        height: 50px;
+    padding-top:15px;
+    }
+    
+    .nav a{
+        font-size: 10px;
+    }
+    
+    
+    .nav span{
+        font-size: 17px;
+        position: relative;
+        left: 13px;
+        top: -6px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .nav-opt{
+        position: absolute;
+        right: 70px;
+        top: 5px;
+    }
+    
+    
+    .nav-opt button{
+        color: white;
+        border: none;
+        margin-right: 4px; 
+        width: 50px;
+        height: 24px;
+    }
+    
+    .hire{
+        position: absolute;
+        right: 10px;
+        width: fit-content;
+        padding: 2px;
+        top: 10px;
+        border-radius: 4px;
+        border: 0 solid black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5px;
+        background-color: black;
+    
+    } 
+    
+    .nav-opt button:hover{
+        background-color:transparent;
+    }
+    
+    .intro{
+        top: 60px;
+        left: 20px;
+        color:black;
+        position: absolute;
+        z-index: 999;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    user-select: none;
+    }
+    
+    .vist-pro{
+        position: relative;
+        border: none;
+        padding: 15px;
+        background-color: black;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .vist-pro a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    
+    .footer-opt{
+        font-size: 11px;
+        text-decoration: none;
+    display: flex;
+    flex-direction: column;
+        position: absolute;
+    right:8px;
+    margin-top: 23px;
+    }
+    
+    .follow{
+     display: none;
+    }
+    
+    #social{
+        height: 10px;
+    position: relative;
+    right: -17px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+        margin-bottom:5px;
+    }
+    
+    
+    .container{
+        position: relative;
+        width: 90%;
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+    
+    .about, 
+    .projectes{
+        color: white;
+        position: relative;
+        top: 30px;
+        left:30px;
+        width:100%;
+        height: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .about{
+        line-height: 30px;
+        position: relative;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+    
+    .about h1{
+        color: rgb(10, 75, 252);
+    }
+    
+    .about-p{
+    position: relative;
+    top: 20px;
+    font-size: 17px;
+    line-height: 35px;
+    }
+    
+    .skills{ 
+        position: relative;
+        top: 50px;
+        height: 5px;
+    }
+    .skills-p{
+        display: flex;
+        justify-items:center ;
+        justify-content:center ;
+        position: relative;
+        font-size: 38px;
+        color: rgb(10, 75, 252); 
+    }
+    
+    #lang{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        color:white;
+        display: block;
+        width: 100px;
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+     .la-na{
+        color: white;
+        position: relative;
+    } 
+    
+    .bar{
+        position: relative;
+        width: 297%;
+        height: 12px;
+        border-radius: 55px;
+        background-color:white;
+    }
+    
+    .bar::before{
+        border-radius:55px;
+        content: '';
+        display: flex;
+        justify-content: end;
+        width: calc(var(--percent) * 1%);
+        height: 100%;
+        background: #2486ff;
+    }
+    
+    .per{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 300%;
+        top: -20px;
+    }
+    
+    .projectes{
+        position: relative;
+        margin-top: 100px;
+        height: 250px;
+    } 
+    
+    
+    .projectes h1{
+        position: relative;
+        color: rgb(10, 75, 252);
+        margin-left: 27.5%;
+    }
+    
+    .gallary {
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        position: relative;
+        top:40px;
+        height: 80px;
+    }
+    
+    
+    .gallary #gallary-items{
+    position: relative;
+    /* left: -13px; */
+    border: 0.5px solid white;
+    width: 90%;
+    height: 80px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10rem 0 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    }
+    
+    
+    .sporty{
+        background-image:url(Images/Screenshot\ \(21\).png) ;
+        background-size: cover;
+        filter: blur(10px);
+    }
+    
+    .note{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.658);
+        display: flex;
+        border: 3px solid white;
+        width: 90%;
+        height: 200px;
+        /* left: 4px; */
+        position: absolute;
+        z-index: 99;
+    }
+    
+    .warning{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 8px;
+    }
+    
+    .note .note-content{
+        font-size: 18px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 30px;
+        top: 5px;
+        display: block;
+        position: relative;
+    }
+    
+    #loader{
+        position: relative;
+        height: 90px;
+        width: 90px;
+        margin-top:10px;
+        background-color:red;
+        background-color: transparent;
+        border: 8px solid white;
+        border-radius: 50%; 
+        border-right-color: transparent; 
+        border-bottom-color: transparent; 
+        animation-name: spin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; 
+    }
+     @keyframes spin {
+        0%{
+            transform: rotate(0deg);
+        }
+        
+        100%{
+            transform: rotate(360deg);
+        }
+    } 
+    
+    
+    
+    .contact-me h1{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:black;
+    
+    }
+    .contact-me{
+        position: relative;
+        margin-left: 20px;
+        top: 5px;
+        margin-bottom:0px;
+        width:100%;
+        height: 0px;
+    }
+    
+    #social-con-me{
+       position: relative;
+       cursor: pointer;
+       background-color: transparent;
+       border: none;
+       margin: 15px 15px 0 0;
+    }
+    
+    .footer{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        position:relative;
+        padding-bottom: 30px;
+        padding: 15px;
+        bottom: 0;
+        width: 100%;
+        height: 110px;
+        background-color:rgb(25, 25, 25);
+        font-size: 13px;
+    }
+    
+    
+    .name-f{
+        position: relative;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        width: fit-content;
+        left: 39px;
+    }
+    
+        #social-f{
+        position: relative;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        margin: 85px 15px 0 0;
+        }
+}

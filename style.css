@@ -1,0 +1,394 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    } 
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(39, 39, 39);
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: url(Images/wall-e-pixar-animation-studios-disney-movies-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav{
+    width: 100%;
+    position:absolute;
+    z-index: 999;
+    display:flex;
+    flex-direction: row;
+    background-color:transparent;
+    height: 50px;
+padding-top:15px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav span{
+    font-size: 22px;
+    color: white;
+position: relative;
+left: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.nav-opt{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    right: 110px;
+}
+
+
+.hire{
+    position: absolute;
+    right: 10px;
+    width: fit-content;
+    padding: 5px;
+    top: 10px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: black;
+
+} 
+
+.nav-opt button{
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-right: 15px; 
+    width: 70px;
+    height: 30px;
+}
+
+.nav-opt button:hover{
+    background-color:rgba(0, 0, 0, 0.588);
+}
+
+.intro{
+    top: 90px;
+    left: 55px;
+    color:black;
+    position: absolute;
+    z-index: 999;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 49px;
+user-select: none;
+}
+
+.vist-pro{
+    position: relative;
+    border: none;
+    padding: 15px;
+    background-color: black;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.vist-pro a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+.footer-opt{
+    font-size: 20px;
+    text-decoration: none;
+display: flex;
+flex-direction: column;
+    position: absolute;
+right:8px;
+margin-top: 69px;
+}
+
+.follow{
+ display: none;
+}
+
+#social{
+    height: 30px;
+position: relative;
+right: 0px;
+cursor: pointer;
+background-color: transparent;
+border: none;
+    margin-bottom:30px;
+}
+
+
+.container{
+    position: relative;
+    width: 90%;
+    height: fit-content;
+    padding-bottom: 170px;
+}
+
+.about, 
+.projectes{
+    color: white;
+    position: relative;
+    top: 30px;
+    left:40px;
+    width:100%;
+    height: 500px;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about{
+    line-height: 50px;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 10px;
+}
+
+.about h1{
+    color: rgb(10, 75, 252);
+}
+
+.about img{
+position: absolute;
+left: 700px;
+top: -20px;
+}
+.about-p{
+position: relative;
+top: 20px;
+font-size: 30px;
+line-height: 60px;
+}
+
+.skills{ 
+    position: relative;
+    top: 50px;
+    height: 1000px;
+}
+.skills-p{
+    display: flex;
+    justify-items:center ;
+    justify-content: center;
+    position: relative;
+    font-size: 60px;
+    color: rgb(10, 75, 252);
+}
+
+#lang{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    display: block;
+    width: 100px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+ .la-na{
+    color: white;
+    position: relative;
+} 
+
+.bar{
+    position: relative;
+    width: 900px;
+    height: 12px;
+    border-radius: 55px;
+    background-color:white;
+}
+
+.bar::before{
+    border-radius:55px;
+    content: '';
+    display: flex;
+    justify-content: end;
+    width: calc(var(--percent) * 1%);
+    height: 100%;
+    background: #2486ff;
+}
+
+.per{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 909px;
+    top: -32px;
+}
+
+.projectes{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 100px;
+} 
+
+
+.projectes h1{
+    position: relative;
+    color: rgb(10, 75, 252);
+    margin-left: 40%;
+}
+
+.gallary {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+position: relative;
+top:90px;
+height: 700px;
+}
+
+
+.gallary #gallary-items{
+    position: relative;
+border: 3px solid white;
+width: 95%;
+height: 500px;
+float: left;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+color: white;
+padding: 10rem 0 0;
+border-radius: 0.5rem;
+overflow: hidden;
+}
+
+
+.sporty{
+    background-image:url(Images/Screenshot\ \(21\).png) ;
+    filter: blur(18px);
+}
+
+.note{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    border: 3px solid white;
+    width: 95%;
+    height: 500px;
+    position: absolute;
+    z-index: 99;
+}
+
+.warning{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 8px;
+}
+
+.note .note-content{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 80px;
+    top: 100px;
+    display: block;
+    position: relative;
+}
+
+#loader{
+    position: relative;
+    height: 110px;
+    width: 110px;
+    margin-top:130px;
+    background-color: transparent;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ } 
+ @keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    } 
+} 
+
+
+
+.contact-me h1{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+
+}
+.contact-me{
+    position: relative;
+    margin-left: 20px;
+    top: 160px;
+    margin-bottom:20px;
+    width:100%;
+    height: 100px;
+}
+
+#social-con-me{
+   position: relative;
+   cursor: pointer;
+   background-color: transparent;
+   border: none;
+   margin: 15px 15px 0 0;
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position:relative;
+    padding-bottom: 30px;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color:rgb(25, 25, 25);
+}
+
+
+.name-f{
+    position: relative;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    width: fit-content;
+    left: 0px;
+}
+
+    #social-f{
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin: 15px 15px 0 0;
+    width: 20px;
+    }
